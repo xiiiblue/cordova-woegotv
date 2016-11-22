@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.sitech.woegotvdebug" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="market:*" />
+    <name>沃易购DEBUG</name>
+    <description>
+        沃易购TV版
+    </description>
+    <author email="guolei@si-tech.com.cn" href="www.si-tech.com.cn">
+        SI-TECH
+    </author>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <content src="http://61.156.3.13:10001/woegotv/index-debug.html" />
+    <allow-navigation href="http://*/*" />
+    <preference name="Fullscreen" value="true" />
+    <icon src="res/icon.png" />
+</widget>

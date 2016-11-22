@@ -1,0 +1,23 @@
+Hax is enabled
+Hax ram_size 0x40000000
+HAX is working and emulator runs in fast virt mode.
+adb_server_notify: Failed to establish connection to ADB server
+console on port 5554, ADB on port 5555
+Your emulator is out of date, please update by launching Android Studio:
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android SDK Tools" checkbox
+ - Click "OK"
+
+Hax is enabled
+Hax ram_size 0x40000000
+HAX is working and emulator runs in fast virt mode.
+console on port 5554, ADB on port 5555
+writeFully: failed: Broken pipe
+Hax is enabled
+Hax ram_size 0x40000000
+HAX is working and emulator runs in fast virt mode.
+console on port 5554, ADB on port 5555
+emulator: WARNING: UpdateCheck: Failure: Error
+emulator: WARNING: UpdateCheck: failed to get the latest version, skipping check (current version '25.1.7'
